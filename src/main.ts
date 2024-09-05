@@ -22,6 +22,7 @@ async function bootstrap() {
   
   await app.listen(envs.port);
   
-  logger.log(`Server on port ->${envs.port}`)
+  logger.log(`Server on port ->${envs.port}`);
+  console.log('Hello world, submodule');
 }
 bootstrap();
